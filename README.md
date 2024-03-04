@@ -1,19 +1,31 @@
 # Project Title
 
-Simple overview of use/purpose.
+ATM_CONTROLLER
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This is a code of simple ATM controller
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* gcc version 6.3.0
 
-### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+### Ruuning
+run the following command line
+* g++ .\test.cpp -o test.exe
+* ./test.exe
+
+### expected output
+Account 1234 created.
+Account 5678 created.
+Account 1234 selected.
+Deposited $100 successfully.
+Withdrawn $50 successfully.
+Current balance: $50
+Account 5678 selected.
+Deposited $500 successfully.
+Current balance: $500
+Insufficient funds or invalid amount
