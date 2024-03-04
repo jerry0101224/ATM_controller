@@ -15,10 +15,12 @@ This is a code of simple ATM controller
 
 ### Ruuning
 run the following command line
-* g++ .\test.cpp -o test.exe
-* ./test.exe
-
+```bash
+g++ .\test.cpp -o test.exe
+./test.exe
+```
 ### expected output
+```bash
 Account 1234 created.
 Account 5678 created.
 Account 1234 selected.
@@ -29,3 +31,4 @@ Account 5678 selected.
 Deposited $500 successfully.
 Current balance: $500
 Insufficient funds or invalid amount
+```
